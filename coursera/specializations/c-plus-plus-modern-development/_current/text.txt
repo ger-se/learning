@@ -1,0 +1,33 @@
+Failed case #2/6: (Wrong answer)
+
+Input:
+2
+
+Your output:
+"Incognito"
+"Polina with unknown last name"
+"Polina Sergeeva"
+"Polina Sergeeva"
+"Appolinaria (Polina) Sergeeva"
+"Polina Volkova (Sergeeva)"
+"Appolinaria (Polina) Volkova (Sergeeva)"
+"Polina (Appolinaria Polina) Volkova-Sergeeva (Volkova Sergeeva)"
+"Pauline (Polina) with unknown last name"
+"Sergeeva with unknown first name"
+"Pauline (Polina) Sergeeva"
+"Pauline (Polina) Sergeeva (Ivanova Sergeeva)"
+
+Correct output:
+"Incognito"
+"Polina with unknown last name"
+"Polina Sergeeva"
+"Polina Sergeeva"
+"Appolinaria (Polina) Sergeeva"
+"Polina Volkova (Sergeeva)"
+"Appolinaria (Polina) Volkova (Sergeeva)"
+"Polina (Appolinaria, Polina) Volkova-Sergeeva (Volkova, Sergeeva)"
+"Pauline (Polina) with unknown last name"
+"Sergeeva with unknown first name"
+"Pauline (Polina) Sergeeva"
+"Pauline (Polina) Sergeeva (Ivanova, Sergeeva)"
+ (Time used: 0.00/1.00, preprocess time used: 0/None, memory used: 9973760/536870912.)
